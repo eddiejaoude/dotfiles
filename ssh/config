@@ -1,0 +1,20 @@
+host github.com
+ HostName github.com
+ IdentityFile ~/.ssh/id_rsa_github
+ User git
+
+host jaoudestudios 46.101.81.83
+ HostName 46.101.81.83
+ IdentityFile ~/.ssh/id_rsa_jaoudestudios
+ User root
+
+host dev.jaoudestudios 188.166.145.193
+ HostName 188.166.145.193
+ IdentityFile ~/.ssh/id_rsa_jaoudestudios_dev
+ User root
+
+host gitlab.com
+ HostName gitlab.com
+ IdentityFile ~/.ssh/id_rsa_gitlab
+ User git
+

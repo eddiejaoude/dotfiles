@@ -1,0 +1,10 @@
+[commit]
+	gpgsign = false
+[user]
+	signingkey = B8CEA48317FD9487
+	name = Eddie Jaoude
+	email = eddie@jaoudestudios.com
+[core]
+	excludesfile = /Users/ej/.gitignore_global
+[gpg]
+	program = gpg
