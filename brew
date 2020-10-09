@@ -1,0 +1,4 @@
+brew 'git'
+brew 'grep'
+brew 'jq'
+brew 'tree'

@@ -3,10 +3,18 @@
 - link:
     ~/.profile: profile
     ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
     ~/.ssh/config:
         path: ssh/config
         create: true
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
 
-
+- shell:
+    # install: brew zsh
+    # - [chsh -s $(which zsh), Making zsh the default shell]
+    - [which zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Install zsh if doesnt exist]
+    - [which brew || sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)", Install brew if doesnt exist]
+    - [brew update, Update brew]
+    - [brew upgrade, Update brew dependencies]
+    - [brew bundle --file=brew, Install brew packages]
