@@ -1,0 +1,6 @@
+- shell:
+    -
+        command: npm -g install $(cat npm | tr "\n" " ")
+        description: Install npm dependencies
+        stdin: true
+        stdout: true

@@ -1,0 +1,6 @@
+- shell:
+    -
+        command: cat vscode | while read line; do code --force --install-extension $line; done
+        description: Install vscode dependencies
+        stdin: true
+        stdout: true

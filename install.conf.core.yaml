@@ -1,0 +1,16 @@
+- link:
+    ~/.profile: profile
+    ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
+    ~/.ssh/config:
+        path: ssh/config
+        create: true
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+
+- shell:
+    -
+        command: which zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        description: Install zsh if doesnt exist
+        stdin: true
+        stdout: true
