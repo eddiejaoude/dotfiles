@@ -8,4 +8,10 @@ This project is idempotent, so you can run it multiple times without any side ef
 1. navigate into project directory `cd dotfiles.git`
 1. install core config with `./install`
 
-Note: to install all conf for mac use  `./install -c install.conf.yaml`
+Then to install individual configs, for example VSCode plugins, use
+
+```
+./install -c install.conf.vscode.yaml
+```
+
+*Note: to install all conf use  `./install -c install.conf.yaml`*
