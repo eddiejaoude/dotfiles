@@ -1,0 +1,89 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "d2867cd557573a242ac5217655d64d4e50299f8f"
+      }
+    },
+    "cask": {
+      "discord": {
+        "version": "0.0.260",
+        "options": {
+          "full_name": "discord"
+        }
+      },
+      "dropbox": {
+        "version": "112.4.321",
+        "options": {
+          "full_name": "dropbox"
+        }
+      },
+      "firefox": {
+        "version": "84.0",
+        "options": {
+          "full_name": "firefox"
+        }
+      },
+      "google-backup-and-sync": {
+        "version": "3.53.3471.0626",
+        "options": {
+          "full_name": "google-backup-and-sync"
+        }
+      },
+      "google-chrome": {
+        "version": "87.0.4280.88",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "postman": {
+        "version": "7.36.1",
+        "options": {
+          "full_name": "postman"
+        }
+      },
+      "slack": {
+        "version": "4.12.0",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "spotify": {
+        "version": "1.1.48.625.g1c87c7f7",
+        "options": {
+          "full_name": "spotify"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.52.1",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "vlc": {
+        "version": "3.0.11.1",
+        "options": {
+          "full_name": "vlc"
+        }
+      },
+      "whatsapp": {
+        "version": "2.2049.10",
+        "options": {
+          "full_name": "whatsapp"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "2.6.2",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "700b5350103925115c22e049c1fd67274462284c",
+        "CLT": "12.3.0.0.1.1607026830",
+        "Xcode": "12.3",
+        "macOS": "11.1"
+      }
+    }
+  }
+}
