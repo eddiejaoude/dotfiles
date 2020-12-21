@@ -12,6 +12,11 @@
         stdin: true
         stdout: true
     -
+        command: ./install -c install.conf.managers.yaml
+        description: Install mangers dotfiles
+        stdin: true
+        stdout: true
+    -
         command: ./install -c install.conf.npm.yaml
         description: Install core dotfiles
         stdin: true
