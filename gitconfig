@@ -5,7 +5,7 @@
 	name = Eddie Jaoude
 	email = eddie@jaoudestudios.com
 [core]
-	excludesfile = /Users/ej/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [gpg]
 	program = gpg
 [alias]
