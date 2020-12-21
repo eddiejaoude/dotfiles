@@ -19,3 +19,8 @@
         description: Install brew packages
         stdin: true
         stdout: true
+    -
+        command: brew bundle --file=brew-cast
+        description: Install brew packages
+        stdin: true
+        stdout: true
