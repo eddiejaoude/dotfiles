@@ -10,7 +10,7 @@
 
 - shell:
     -
-        command: which zsh || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-        description: Install zsh if doesnt exist
+        command: sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        description: Install zsh
         stdin: true
         stdout: true
