@@ -5,12 +5,12 @@
         stdin: true
         stdout: true
     -
-        command: nvm install node
+        command: . ~/.nvm/nvm.sh && nvm install node
         description: Install latest node
         stdin: true
         stdout: true
     -
-        command: nvm use node
+        command: . ~/.nvm/nvm.sh && nvm use node
         description: Use latest nvm
         stdin: true
         stdout: true
