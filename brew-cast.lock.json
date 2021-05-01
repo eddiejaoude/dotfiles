@@ -2,74 +2,104 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "d2867cd557573a242ac5217655d64d4e50299f8f"
+        "revision": "f4536366d4dd8a29ca188c5e667c9b65476f1a80"
       }
     },
     "cask": {
       "discord": {
-        "version": "0.0.260",
+        "version": "0.0.261",
         "options": {
           "full_name": "discord"
         }
       },
       "dropbox": {
-        "version": "112.4.321",
+        "version": "115.4.601",
         "options": {
           "full_name": "dropbox"
         }
       },
       "firefox": {
-        "version": "84.0",
+        "version": "85.0",
         "options": {
           "full_name": "firefox"
         }
       },
       "google-backup-and-sync": {
-        "version": "3.53.3471.0626",
+        "version": "3.54.3529.0458",
         "options": {
           "full_name": "google-backup-and-sync"
         }
       },
       "google-chrome": {
-        "version": "87.0.4280.88",
+        "version": "88.0.4324.150,4324.150",
         "options": {
           "full_name": "google-chrome"
         }
       },
       "postman": {
-        "version": "7.36.1",
+        "version": "8.0.4",
         "options": {
           "full_name": "postman"
         }
       },
       "slack": {
-        "version": "4.12.0",
+        "version": "4.12.2",
         "options": {
           "full_name": "slack"
         }
       },
       "spotify": {
-        "version": "1.1.48.625.g1c87c7f7",
+        "version": "1.1.52.687.gf5565fe5,1.1.52.687.gf5565fe5-30",
         "options": {
           "full_name": "spotify"
         }
       },
       "visual-studio-code": {
-        "version": "1.52.1",
+        "version": "1.53.0",
         "options": {
           "full_name": "visual-studio-code"
         }
       },
       "vlc": {
-        "version": "3.0.11.1",
+        "version": "3.0.12",
         "options": {
           "full_name": "vlc"
         }
       },
       "whatsapp": {
-        "version": "2.2049.10",
+        "version": "2.2102.9",
         "options": {
           "full_name": "whatsapp"
+        }
+      },
+      "private-internet-access": {
+        "version": "2.6.1-05824",
+        "options": {
+          "full_name": "private-internet-access"
+        }
+      },
+      "evernote": {
+        "version": "10.7.6,2321",
+        "options": {
+          "full_name": "evernote"
+        }
+      },
+      "signal": {
+        "version": "1.39.6",
+        "options": {
+          "full_name": "signal"
+        }
+      },
+      "authy": {
+        "version": "1.8.3",
+        "options": {
+          "full_name": "authy"
+        }
+      },
+      "docker": {
+        "version": null,
+        "options": {
+          "full_name": "docker"
         }
       }
     }
@@ -77,9 +107,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "2.6.2",
+        "HOMEBREW_VERSION": "3.0.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "700b5350103925115c22e049c1fd67274462284c",
+        "Homebrew/homebrew-core": "ffd759cd7129cc18f657edad03e32648c9f2510f",
         "CLT": "12.3.0.0.1.1607026830",
         "Xcode": "12.3",
         "macOS": "11.1"
