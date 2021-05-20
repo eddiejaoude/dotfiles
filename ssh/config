@@ -18,3 +18,8 @@ host gitlab.com
  IdentityFile ~/.ssh/id_rsa_gitlab
  User git
 
+host eddiehub 167.172.60.17
+  HostName 167.172.60.17
+  IdentityFile ~/.ssh/id_ed25519_eddiehub
+  User root
+
