@@ -8,3 +8,6 @@
 .npmrc
 download/
 .vscode/
+*kubeconfig.yaml
+*.env
+
