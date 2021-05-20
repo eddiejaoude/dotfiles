@@ -15,3 +15,8 @@ Then to install individual configs, for example VSCode plugins, use
 ```
 
 *Note: to install all conf use  `./install -c install.conf.yaml`*
+
+## Resources
+
+- https://github.com/Vaelatern/init-dotfiles
+- https://github.com/anishathalye/dotbot
