@@ -1,6 +1,6 @@
 host github.com
  HostName github.com
- IdentityFile ~/.ssh/id_rsa_github
+ IdentityFile ~/.ssh/id_ed25519
  User git
 
 host jaoudestudios 46.101.81.83

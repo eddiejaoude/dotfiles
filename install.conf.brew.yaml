@@ -1,6 +1,6 @@
 - shell:
     -
-        command: which brew || sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        command: which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
         description: Install brew if doesnt exist
         stdin: true
         stdout: true
