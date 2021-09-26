@@ -2,6 +2,8 @@
 
 This project is idempotent, so you can run it multiple times without any side effects.
 
+Learn more in my YouTube video https://www.youtube.com/watch?v=Xk11eKWuo_Y&t=1s
+
 ## QuickStart
 
 1. clone repo locally with `git clone git@github.com:eddiejaoude/dotfiles.git`
